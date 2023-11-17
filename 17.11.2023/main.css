@@ -1,0 +1,91 @@
+#container{
+   display: grid; 
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-gap: 10px 10px;
+   border: 1px solid red;
+padding: 10px;
+
+}
+#head{
+background-color: #ffbc36;
+display: grid;
+align-items: center;
+justify-content: center;
+grid-column: 1/-1;
+text-align: center;
+border: 1px solid black;
+height: 100px;
+}
+h1{
+    border:1px solid blue;
+    width: 200px;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#left{
+background-color: #ccffaa;
+display: grid;
+grid-gap: 10px 10px;
+}
+
+
+#main{
+background-color: #a5d8dd;
+border: 1px solid black;
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+
+#right{
+background-color: #ffde66;
+display: grid;
+grid-gap: 10px 10px;
+}
+
+#stopa{
+    background-color: #f9a951;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column:1/-1;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    height: 100px;
+
+}
+p{
+    border:1px solid blue;
+}
+
+.zajawka{
+    border: 1px solid blue;
+    margin: 10px;
+}
+.reklama{
+    margin: 10px;
+    border:1px solid blue;
+}
+.artykul{
+border:1px solid blue;
+margin:10px;
+}
+
+h2{
+    text-align: center;
+}
+
+aside{
+    border: 1px solid black
+}
+#pierwszedziecko{
+    grid-column: 1/-1;
+}
+#drugiedziecko{
+    grid-column: 1/-1;
+}
+#trzeciedziecko{
+    grid-column: 1/-1;
+}
